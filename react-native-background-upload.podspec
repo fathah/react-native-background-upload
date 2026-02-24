@@ -6,12 +6,13 @@ require "json"
  Pod::Spec.new do |s|
    s.name = package[:name]
    s.version = package[:version]
+   s.swift_version = "5.0"
    s.license = { type: "MIT" }
    s.homepage = "https://github.com/Vydia/react-native-background-upload"
    s.authors = package[:author]
    s.summary = package[:description]
    s.source = { git: package[:repository][:url] }
-   s.source_files = "ios/*.{h,m}"
+   s.source_files = "ios/*.{h,m,swift}"
    s.platform = :ios, "9.0"
 
    s.dependency "React"

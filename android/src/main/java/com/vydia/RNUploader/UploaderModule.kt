@@ -39,6 +39,10 @@ class UploaderModule(val reactContext: ReactApplicationContext) : ReactContextBa
   fun getFileInfo(path: String?, promise: Promise) {
     try {
       val params = Arguments.createMap()
+      if (path == null) {
+          promise.reject(IllegalArgumentException("path is null"))
+          return
+      }
       val fileInfo = File(path)
       params.putString("name", fileInfo.name)
       if (!fileInfo.exists() || !fileInfo.isFile) {
@@ -48,7 +52,7 @@ class UploaderModule(val reactContext: ReactApplicationContext) : ReactContextBa
         params.putString("size", fileInfo.length().toString()) //use string form of long because there is no putLong and converting to int results in a max size of 17.2 gb, which could happen.  Javascript will need to convert it to a number
         val extension = MimeTypeMap.getFileExtensionFromUrl(path)
         params.putString("extension", extension)
-        val mimeType = MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension.toLowerCase())
+        val mimeType = MimeTypeMap.getSingleton().getMimeTypeFromExtension(extension.lowercase())
         params.putString("mimeType", mimeType)
       }
       promise.resolve(params)
@@ -182,7 +186,8 @@ class UploaderModule(val reactContext: ReactApplicationContext) : ReactContextBa
 
     val url = options.getString("url")
     val filePath = options.getString("path")
-    val method = if (options.hasKey("method") && options.getType("method") == ReadableType.String) options.getString("method") else "POST"
+    val isRaw = options.hasKey("type") && options.getString("type")!!.lowercase() == "raw"
+    val method = if (options.hasKey("method") && options.getString("method") != null) options.getString("method")!!.uppercase() else "POST"
     val maxRetries = if (options.hasKey("maxRetries") && options.getType("maxRetries") == ReadableType.Number) options.getInt("maxRetries") else 2
     val customUploadId = if (options.hasKey("customUploadId") && options.getType("method") == ReadableType.String) options.getString("customUploadId") else null
     try {

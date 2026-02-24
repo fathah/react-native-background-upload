@@ -1,0 +1,563 @@
+--- xcodebuild: WARNING: Using the first of multiple matching destinations:
+{ platform:iOS Simulator, id:dvtdevice-DVTiOSDeviceSimulatorPlaceholder-iphonesimulator:placeholder, name:Any iOS Simulator Device }
+{ platform:iOS Simulator, arch:arm64, id:96DDCAA8-6E38-4136-95CA-B648E7F3DF05, OS:18.2, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:x86_64, id:96DDCAA8-6E38-4136-95CA-B648E7F3DF05, OS:18.2, name:iPad (10th generation) }
+{ platform:iOS Simulator, arch:arm64, id:721DF65C-55A8-4A41-9894-ABACC137BDC7, OS:18.6, name:iPad (A16) }
+{ platform:iOS Simulator, arch:x86_64, id:721DF65C-55A8-4A41-9894-ABACC137BDC7, OS:18.6, name:iPad (A16) }
+{ platform:iOS Simulator, arch:arm64, id:022E1874-53F5-4860-ACCD-21D24D17C0D4, OS:26.2, name:iPad (A16) }
+{ platform:iOS Simulator, arch:arm64, id:5CF3DDA8-4692-4528-A039-28F317CD6EEA, OS:18.2, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:5CF3DDA8-4692-4528-A039-28F317CD6EEA, OS:18.2, name:iPad Air 11-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:7EB30FF7-AE4F-4825-A5CC-34A85125FD19, OS:18.6, name:iPad Air 11-inch (M3) }
+{ platform:iOS Simulator, arch:x86_64, id:7EB30FF7-AE4F-4825-A5CC-34A85125FD19, OS:18.6, name:iPad Air 11-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:5C166920-EC21-4C2A-8F4D-3AE378ED0249, OS:26.2, name:iPad Air 11-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:F36CB055-E7A9-4094-B495-8F72ECFC0445, OS:18.2, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:x86_64, id:F36CB055-E7A9-4094-B495-8F72ECFC0445, OS:18.2, name:iPad Air 13-inch (M2) }
+{ platform:iOS Simulator, arch:arm64, id:7B2EA157-C14D-4169-8BE2-8E5CAB9F7A40, OS:18.6, name:iPad Air 13-inch (M3) }
+{ platform:iOS Simulator, arch:x86_64, id:7B2EA157-C14D-4169-8BE2-8E5CAB9F7A40, OS:18.6, name:iPad Air 13-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:B4218F94-F9EE-43C2-865C-FD2BA0F9ECC1, OS:26.2, name:iPad Air 13-inch (M3) }
+{ platform:iOS Simulator, arch:arm64, id:477F3A26-3998-433A-AC78-25C7ED5B4847, OS:18.2, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:477F3A26-3998-433A-AC78-25C7ED5B4847, OS:18.2, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:54D56B8A-6B33-462F-83CA-B40BCFDF7C50, OS:18.6, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:54D56B8A-6B33-462F-83CA-B40BCFDF7C50, OS:18.6, name:iPad Pro 11-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:0E7696D2-1461-4843-92E3-ACF26EA5E09D, OS:26.2, name:iPad Pro 11-inch (M5) }
+{ platform:iOS Simulator, arch:arm64, id:5286BB44-D2F1-48EB-9B8C-B2F8FAFA4D87, OS:18.2, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:5286BB44-D2F1-48EB-9B8C-B2F8FAFA4D87, OS:18.2, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:1656901A-763B-4889-9363-AF076042F312, OS:18.6, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:x86_64, id:1656901A-763B-4889-9363-AF076042F312, OS:18.6, name:iPad Pro 13-inch (M4) }
+{ platform:iOS Simulator, arch:arm64, id:0272E710-D8D7-4E50-BF06-714B92FC162D, OS:26.2, name:iPad Pro 13-inch (M5) }
+{ platform:iOS Simulator, arch:arm64, id:2E171082-B885-4B4E-8031-7ACFBB131882, OS:18.2, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:x86_64, id:2E171082-B885-4B4E-8031-7ACFBB131882, OS:18.2, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:2B149AF8-9D88-4E66-AFAF-AB8C53F14BBA, OS:18.6, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:x86_64, id:2B149AF8-9D88-4E66-AFAF-AB8C53F14BBA, OS:18.6, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:781FCBD4-2937-4A65-8E6B-FECD297B2B07, OS:26.2, name:iPad mini (A17 Pro) }
+{ platform:iOS Simulator, arch:arm64, id:2C9447D2-895B-4925-A510-CAE7BBD8BA16, OS:18.2, name:iPhone 16 }
+{ platform:iOS Simulator, arch:x86_64, id:2C9447D2-895B-4925-A510-CAE7BBD8BA16, OS:18.2, name:iPhone 16 }
+{ platform:iOS Simulator, arch:arm64, id:FFBC964D-5F9B-4253-9F2E-3B605A4691C0, OS:18.6, name:iPhone 16 }
+{ platform:iOS Simulator, arch:x86_64, id:FFBC964D-5F9B-4253-9F2E-3B605A4691C0, OS:18.6, name:iPhone 16 }
+{ platform:iOS Simulator, arch:arm64, id:4BAABA83-8899-410C-9B02-586DEA9C7AF1, OS:18.2, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:x86_64, id:4BAABA83-8899-410C-9B02-586DEA9C7AF1, OS:18.2, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:arm64, id:49408240-17C8-41FF-9913-FDCB27A15E4C, OS:18.6, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:x86_64, id:49408240-17C8-41FF-9913-FDCB27A15E4C, OS:18.6, name:iPhone 16 Plus }
+{ platform:iOS Simulator, arch:arm64, id:A15884D7-FC67-41EB-91BD-6493AA6C23B2, OS:18.2, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:A15884D7-FC67-41EB-91BD-6493AA6C23B2, OS:18.2, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:arm64, id:4A28646B-3186-44F4-988E-AA71A27DAEC3, OS:18.6, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:x86_64, id:4A28646B-3186-44F4-988E-AA71A27DAEC3, OS:18.6, name:iPhone 16 Pro }
+{ platform:iOS Simulator, arch:arm64, id:879CD333-34F2-44A7-B3FC-E22EAE88AB6D, OS:18.2, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:x86_64, id:879CD333-34F2-44A7-B3FC-E22EAE88AB6D, OS:18.2, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:7EE64A3F-E9E4-44B8-9364-397DDB106314, OS:18.6, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:x86_64, id:7EE64A3F-E9E4-44B8-9364-397DDB106314, OS:18.6, name:iPhone 16 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:3B6187E6-3E43-42CD-871D-ADB826A8BF77, OS:18.6, name:iPhone 16e }
+{ platform:iOS Simulator, arch:x86_64, id:3B6187E6-3E43-42CD-871D-ADB826A8BF77, OS:18.6, name:iPhone 16e }
+{ platform:iOS Simulator, arch:arm64, id:4E28125B-7817-4E2B-978A-C062F3C21BC1, OS:26.2, name:iPhone 16e }
+{ platform:iOS Simulator, arch:arm64, id:1677C261-9101-40B3-88B7-84387AC81A7C, OS:26.2, name:iPhone 17 }
+{ platform:iOS Simulator, arch:arm64, id:94527AE7-EEB7-47B3-B6CF-51B84B6013E7, OS:26.2, name:iPhone 17 Pro }
+{ platform:iOS Simulator, arch:arm64, id:2F20F9AE-27DD-4C6A-9D3D-07882388DF04, OS:26.2, name:iPhone 17 Pro Max }
+{ platform:iOS Simulator, arch:arm64, id:A57749D4-2E8B-42BE-989A-794A7BD8D8AC, OS:26.2, name:iPhone Air }
+{ platform:iOS Simulator, arch:arm64, id:C149A77B-EFC3-4C91-A8D1-FB7960FFFFE9, OS:18.2, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:x86_64, id:C149A77B-EFC3-4C91-A8D1-FB7960FFFFE9, OS:18.2, name:iPhone SE (3rd generation) }
+{ platform:iOS Simulator, arch:arm64, id:5C0CC896-AC15-496F-8545-3EF280BC6DCC, OS:18.6, name:iphone 14 }
+{ platform:iOS Simulator, arch:x86_64, id:5C0CC896-AC15-496F-8545-3EF280BC6DCC, OS:18.6, name:iphone 14 }
+{ platform:macOS, arch:arm64, variant:Designed for [iPad,iPhone], id:00008132-0009799A2E38801C, name:My Mac }
+{ platform:iOS, id:dvtdevice-DVTiPhonePlaceholder-iphoneos:placeholder, name:Any iOS Device }
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/json.h:47:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:44:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/core.h:378:30: warning: 'char_traits<fmt::internal::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  378 |       : data_(s), size_(std::char_traits<Char>::length(s)) {}
+      |                              ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/json.h:47:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:580:9: note: in instantiation of member function 'fmt::basic_string_view<fmt::internal::char8_type>::basic_string_view' requested here
+  580 |       : basic_string_view<internal::char8_type>(
+      |         ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/json.h:44:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/string:624:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<fmt::internal::char8_type>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/json.h:43:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/iosfwd:111:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/json.h:47:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:176:16: warning: 'char_traits<unsigned char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  176 |   typedef std::char_traits<typename std::remove_const<value_type>::type>
+      |                ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:93:20: note: in instantiation of template class 'folly::Range<const unsigned char *>' requested here
+   93 |     const typename Range<Iter>::value_type& needle);
+      |                    ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:1407:15: note: while substituting deduced template arguments into function template 'qfind' [with Iter = const unsigned char *]
+ 1407 | inline size_t qfind(
+      |               ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/json.h:44:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/string:624:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<unsigned char>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/json.h:43:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/iosfwd:111:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string.hpp:23:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/split.hpp:16:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/iter_find.hpp:27:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/find_iterator.hpp:24:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/detail/find_iterator.hpp:18:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/function.hpp:30:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/function/detail/prologue.hpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/function/function_base.hpp:21:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/type_index.hpp:29:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/type_index/stl_type_index.hpp:47:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/container_hash/hash.hpp:131:33: error: no template named 'unary_function' in namespace 'std'; did you mean '__unary_function'?
+  131 |         struct hash_base : std::unary_function<T, std::size_t> {};
+      |                            ~~~~~^~~~~~~~~~~~~~
+      |                                 __unary_function
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/json.h:44:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/string:600:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__functional/hash.h:14:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__functional/unary_function.h:46:1: note: '__unary_function' declared here
+   46 | using __unary_function _LIBCPP_NODEBUG = __unary_function_keep_layout_base<_Arg, _Result>;
+      | ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string.hpp:23:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/split.hpp:16:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/iter_find.hpp:27:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/find_iterator.hpp:24:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/detail/find_iterator.hpp:18:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/function.hpp:30:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/function/detail/prologue.hpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/function/function_base.hpp:22:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/type_traits/has_trivial_copy.hpp:34:4: warning: builtin __has_trivial_copy is deprecated; use __is_trivially_copyable instead [-Wdeprecated-builtins]
+   34 |    BOOST_HAS_TRIVIAL_COPY(T) BOOST_TT_TRIVIAL_CONSTRUCT_FIX
+      |    ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string.hpp:19:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/trim.hpp:19:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/range/as_literal.hpp:18:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/range/iterator_range.hpp:13:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/range/iterator_range_core.hpp:27:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/iterator/iterator_facade.hpp:11:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/iterator/interoperable.hpp:13:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/type_traits/is_convertible.hpp:15:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/type_traits/intrinsics.hpp:190:41: note: expanded from macro 'BOOST_HAS_TRIVIAL_COPY'
+  190 | #     define BOOST_HAS_TRIVIAL_COPY(T) (__has_trivial_copy(T) && !is_reference<T>::value)
+      |                                         ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string.hpp:23:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/split.hpp:16:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/iter_find.hpp:27:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/find_iterator.hpp:24:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/detail/find_iterator.hpp:18:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/function.hpp:30:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/function/detail/prologue.hpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/function/function_base.hpp:23:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/type_traits/has_trivial_destructor.hpp:30:86: warning: builtin __has_trivial_destructor is deprecated; use __is_trivially_destructible instead [-Wdeprecated-builtins]
+   30 | template <typename T> struct has_trivial_destructor : public integral_constant<bool, BOOST_HAS_TRIVIAL_DESTRUCTOR(T)>{};
+      |                                                                                      ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/json.cpp:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string.hpp:19:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/algorithm/string/trim.hpp:19:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/range/as_literal.hpp:18:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/range/iterator_range.hpp:13:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/range/iterator_range_core.hpp:27:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/iterator/iterator_facade.hpp:11:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/iterator/interoperable.hpp:13:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/type_traits/is_convertible.hpp:15:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/boost/boost/type_traits/intrinsics.hpp:196:47: note: expanded from macro 'BOOST_HAS_TRIVIAL_DESTRUCTOR'
+  196 | #     define BOOST_HAS_TRIVIAL_DESTRUCTOR(T) (__has_trivial_destructor(T)  && is_destructible<T>::value)
+      |                                               ^
+4 warnings and 1 error generated.
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/futures/ThreadWheelTimekeeper.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/ThreadWheelTimekeeper.h:21:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/Future.h:33:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/DrivableExecutor.h:19:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Executor.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:44:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/core.h:378:30: warning: 'char_traits<fmt::internal::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  378 |       : data_(s), size_(std::char_traits<Char>::length(s)) {}
+      |                              ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/futures/ThreadWheelTimekeeper.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/ThreadWheelTimekeeper.h:21:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/Future.h:33:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/DrivableExecutor.h:19:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Executor.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:580:9: note: in instantiation of member function 'fmt::basic_string_view<fmt::internal::char8_type>::basic_string_view' requested here
+  580 |       : basic_string_view<internal::char8_type>(
+      |         ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/futures/ThreadWheelTimekeeper.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/ThreadWheelTimekeeper.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/thread:97:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__thread/thread.h:32:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/locale:206:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:19:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<fmt::internal::char8_type>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/futures/ThreadWheelTimekeeper.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/ThreadWheelTimekeeper.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/thread:92:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/futures/ThreadWheelTimekeeper.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/ThreadWheelTimekeeper.h:21:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/Future.h:33:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/DrivableExecutor.h:19:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Executor.h:25:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:176:16: warning: 'char_traits<unsigned char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  176 |   typedef std::char_traits<typename std::remove_const<value_type>::type>
+      |                ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:93:20: note: in instantiation of template class 'folly::Range<const unsigned char *>' requested here
+   93 |     const typename Range<Iter>::value_type& needle);
+      |                    ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:1407:15: note: while substituting deduced template arguments into function template 'qfind' [with Iter = const unsigned char *]
+ 1407 | inline size_t qfind(
+      |               ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/futures/ThreadWheelTimekeeper.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/ThreadWheelTimekeeper.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/thread:97:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__thread/thread.h:32:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/locale:206:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:19:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<unsigned char>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/futures/ThreadWheelTimekeeper.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/futures/ThreadWheelTimekeeper.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/thread:92:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+2 warnings generated.
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/ThreadPoolExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/ThreadPoolExecutor.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/DefaultKeepAliveExecutor.h:23:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Executor.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:44:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/core.h:378:30: warning: 'char_traits<fmt::internal::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  378 |       : data_(s), size_(std::char_traits<Char>::length(s)) {}
+      |                              ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/ThreadPoolExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/ThreadPoolExecutor.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/DefaultKeepAliveExecutor.h:23:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Executor.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:580:9: note: in instantiation of member function 'fmt::basic_string_view<fmt::internal::char8_type>::basic_string_view' requested here
+  580 |       : basic_string_view<internal::char8_type>(
+      |         ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/ThreadPoolExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/ThreadPoolExecutor.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/algorithm:1854:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__algorithm/for_each.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__ranges/movable_box.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/optional:1300:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/iterator:693:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:19:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<fmt::internal::char8_type>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/ThreadPoolExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/ThreadPoolExecutor.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/algorithm:1833:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/ThreadPoolExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/ThreadPoolExecutor.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/DefaultKeepAliveExecutor.h:23:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Executor.h:25:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:176:16: warning: 'char_traits<unsigned char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  176 |   typedef std::char_traits<typename std::remove_const<value_type>::type>
+      |                ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:93:20: note: in instantiation of template class 'folly::Range<const unsigned char *>' requested here
+   93 |     const typename Range<Iter>::value_type& needle);
+      |                    ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:1407:15: note: while substituting deduced template arguments into function template 'qfind' [with Iter = const unsigned char *]
+ 1407 | inline size_t qfind(
+      |               ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/ThreadPoolExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/ThreadPoolExecutor.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/algorithm:1854:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__algorithm/for_each.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__ranges/movable_box.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/optional:1300:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/iterator:693:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:19:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<unsigned char>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/ThreadPoolExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/ThreadPoolExecutor.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/algorithm:1833:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+2 warnings generated.
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/detail/ThreadLocalDetail.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/detail/ThreadLocalDetail.h:30:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Exception.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Conv.h:120:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:44:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/core.h:378:30: warning: 'char_traits<fmt::internal::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  378 |       : data_(s), size_(std::char_traits<Char>::length(s)) {}
+      |                              ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/detail/ThreadLocalDetail.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/detail/ThreadLocalDetail.h:30:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Exception.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Conv.h:120:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:580:9: note: in instantiation of member function 'fmt::basic_string_view<fmt::internal::char8_type>::basic_string_view' requested here
+  580 |       : basic_string_view<internal::char8_type>(
+      |         ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/detail/ThreadLocalDetail.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/detail/ThreadLocalDetail.h:22:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/functional:557:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h:26:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/array:564:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/algorithm:1854:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__algorithm/for_each.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__ranges/movable_box.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/optional:1300:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/iterator:693:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:19:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<fmt::internal::char8_type>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/detail/ThreadLocalDetail.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/detail/ThreadLocalDetail.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/atomic:593:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/detail/ThreadLocalDetail.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/detail/ThreadLocalDetail.h:30:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Exception.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Conv.h:120:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:176:16: warning: 'char_traits<unsigned char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  176 |   typedef std::char_traits<typename std::remove_const<value_type>::type>
+      |                ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:93:20: note: in instantiation of template class 'folly::Range<const unsigned char *>' requested here
+   93 |     const typename Range<Iter>::value_type& needle);
+      |                    ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:1407:15: note: while substituting deduced template arguments into function template 'qfind' [with Iter = const unsigned char *]
+ 1407 | inline size_t qfind(
+      |               ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/detail/ThreadLocalDetail.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/detail/ThreadLocalDetail.h:22:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/functional:557:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__functional/boyer_moore_searcher.h:26:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/array:564:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/algorithm:1854:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__algorithm/for_each.h:16:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__ranges/movable_box.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/optional:1300:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/iterator:693:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:19:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<unsigned char>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/detail/ThreadLocalDetail.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/detail/ThreadLocalDetail.h:21:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/atomic:593:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+2 warnings generated.
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:27:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Conv.h:120:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:44:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/core.h:378:30: warning: 'char_traits<fmt::internal::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  378 |       : data_(s), size_(std::char_traits<Char>::length(s)) {}
+      |                              ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:27:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Conv.h:120:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:580:9: note: in instantiation of member function 'fmt::basic_string_view<fmt::internal::char8_type>::basic_string_view' requested here
+  580 |       : basic_string_view<internal::char8_type>(
+      |         ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:22:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/string:624:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<fmt::internal::char8_type>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:20:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/cstdarg:37:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:27:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Conv.h:120:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:176:16: warning: 'char_traits<unsigned char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  176 |   typedef std::char_traits<typename std::remove_const<value_type>::type>
+      |                ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:93:20: note: in instantiation of template class 'folly::Range<const unsigned char *>' requested here
+   93 |     const typename Range<Iter>::value_type& needle);
+      |                    ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:1407:15: note: while substituting deduced template arguments into function template 'qfind' [with Iter = const unsigned char *]
+ 1407 | inline size_t qfind(
+      |               ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:22:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/string:624:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<unsigned char>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:20:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/cstdarg:37:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:27:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Conv.h:120:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:176:16: warning: 'char_traits<folly::Range<const char *>>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  176 |   typedef std::char_traits<typename std::remove_const<value_type>::type>
+      |                ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:1096:16: note: in instantiation of template class 'folly::Range<folly::Range<const char *> *>' requested here
+ 1096 | constexpr auto range(Collection& v) -> Range<decltype(v.data())> {
+      |                ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:721:17: note: in instantiation of function template specialization 'folly::range<std::vector<folly::Range<const char *>>>' requested here
+  721 |   auto piecer = range(pieces);
+      |                 ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:22:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/string:624:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<folly::Range<const char *>>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/String.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/String.h:20:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/cstdarg:37:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+3 warnings generated.
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/StrandExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/StrandExecutor.h:23:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/concurrency/UnboundedQueue.h:30:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/synchronization/Hazptr.h:20:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/synchronization/HazptrDomain.h:24:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/QueuedImmediateExecutor.h:21:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Executor.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:44:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/core.h:378:30: warning: 'char_traits<fmt::internal::char8_type>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  378 |       : data_(s), size_(std::char_traits<Char>::length(s)) {}
+      |                              ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/StrandExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/StrandExecutor.h:23:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/concurrency/UnboundedQueue.h:30:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/synchronization/Hazptr.h:20:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/synchronization/HazptrDomain.h:24:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/QueuedImmediateExecutor.h:21:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Executor.h:25:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:45:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Public/fmt/fmt/format.h:580:9: note: in instantiation of member function 'fmt::basic_string_view<fmt::internal::char8_type>::basic_string_view' requested here
+  580 |       : basic_string_view<internal::char8_type>(
+      |         ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/StrandExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/StrandExecutor.h:20:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/memory:992:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/iterator:693:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:19:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<fmt::internal::char8_type>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/StrandExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/StrandExecutor.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/atomic:593:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/StrandExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/StrandExecutor.h:23:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/concurrency/UnboundedQueue.h:30:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/synchronization/Hazptr.h:20:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/synchronization/HazptrDomain.h:24:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/QueuedImmediateExecutor.h:21:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Executor.h:25:
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:176:16: warning: 'char_traits<unsigned char>' is deprecated: char_traits<T> for T not equal to char, wchar_t, char8_t, char16_t or char32_t is non-standard and is provided for a temporary period. It will be removed in LLVM 19, so please migrate off of it. [-Wdeprecated-declarations]
+  176 |   typedef std::char_traits<typename std::remove_const<value_type>::type>
+      |                ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:93:20: note: in instantiation of template class 'folly::Range<const unsigned char *>' requested here
+   93 |     const typename Range<Iter>::value_type& needle);
+      |                    ^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/Range.h:1407:15: note: while substituting deduced template arguments into function template 'qfind' [with Iter = const unsigned char *]
+ 1407 | inline size_t qfind(
+      |               ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/StrandExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/StrandExecutor.h:20:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/memory:992:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/iterator:693:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__iterator/istreambuf_iterator.h:19:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__string/char_traits.h:86:8: note: 'char_traits<unsigned char>' has been explicitly marked deprecated here
+   86 | struct _LIBCPP_DEPRECATED_(
+      |        ^
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/RCT-Folly/folly/executors/StrandExecutor.cpp:17:
+In file included from /Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Headers/Private/RCT-Folly/folly/executors/StrandExecutor.h:19:
+In file included from /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/atomic:593:
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator26.2.sdk/usr/include/c++/v1/__config:711:53: note: expanded from macro '_LIBCPP_DEPRECATED_'
+  711 | #      define _LIBCPP_DEPRECATED_(m) __attribute__((__deprecated__(m)))
+      |                                                     ^
+2 warnings generated.
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/YogaKit/YogaKit/Source/YGLayoutExtensions.swift:29:1: warning: extension declares a conformance of imported type 'YGValue' to imported protocols 'ExpressibleByIntegerLiteral', 'ExpressibleByFloatLiteral'; this will not behave correctly if the owners of 'yoga' introduce this conformance in the future
+extension YGValue : ExpressibleByIntegerLiteral, ExpressibleByFloatLiteral {
+^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/YogaKit/YogaKit/Source/YGLayoutExtensions.swift:29:1: note: add '@retroactive' to silence this warning
+extension YGValue : ExpressibleByIntegerLiteral, ExpressibleByFloatLiteral {
+^                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~
+                    @retroactive ExpressibleByIntegerLiteral @retroactive ExpressibleByFloatLiteral
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/YogaKit/YogaKit/Source/YGLayoutExtensions.swift:29:1: warning: extension declares a conformance of imported type 'YGValue' to imported protocols 'ExpressibleByIntegerLiteral', 'ExpressibleByFloatLiteral'; this will not behave correctly if the owners of 'yoga' introduce this conformance in the future
+extension YGValue : ExpressibleByIntegerLiteral, ExpressibleByFloatLiteral {
+^
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/YogaKit/YogaKit/Source/YGLayoutExtensions.swift:29:1: note: add '@retroactive' to silence this warning
+extension YGValue : ExpressibleByIntegerLiteral, ExpressibleByFloatLiteral {
+^                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~
+                    @retroactive ExpressibleByIntegerLiteral @retroactive ExpressibleByFloatLiteral
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'OpenSSL-Universal' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'Flipper-Glog' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'Flipper-DoubleConversion' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'RCT-Folly' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'YogaKit' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'libevent' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'react-native-image-picker' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'Flipper-Fmt' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'Flipper-Boost-iOSX' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'react-native-background-upload' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'Flipper' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'Flipper-Folly' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'CocoaAsyncSocket' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'Flipper-RSocket' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'React-Codegen' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'SocketRocket' from project 'Pods')
+warning: Run script build phase 'Start Packager' will be run during every build because it does not specify any outputs. To address this issue, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'RNBackgroundExample' from project 'RNBackgroundExample')
+warning: Run script build phase 'Bundle React Native code and images' will be run during every build because it does not specify any outputs. To address this issue, either add output dependencies to the script phase, or configure it to run in every build by unchecking "Based on dependency analysis" in the script phase. (in target 'RNBackgroundExample' from project 'RNBackgroundExample')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'fmt' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'RNFS' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'Flipper-PeerTalk' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'FlipperKit' from project 'Pods')
+/Users/fathah/Desktop/projects/KPTAC/react-native-background-upload-master/example/RNBackgroundExample/ios/Pods/Pods.xcodeproj: warning: The iOS Simulator deployment target 'IPHONEOS_DEPLOYMENT_TARGET' is set to 11.0, but the range of supported deployment target versions is 12.0 to 26.2.99. (in target 'boost' from project 'Pods')
+** BUILD FAILED **
+

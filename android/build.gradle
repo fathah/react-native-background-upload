@@ -1,10 +1,11 @@
 buildscript {
     ext {
-        kotlinVersion = '1.6.0'
-        buildToolsVersion = '29.0.2'
-        compileSdkVersion = 29
-        targetSdkVersion = 29
-        minSdkVersion = 18
+        kotlinVersion = '2.1.20'
+        buildToolsVersion = '36.0.0'
+        compileSdkVersion = 36
+        targetSdkVersion = 36
+        minSdkVersion = 28
+        ndkVersion = '27.1.12297006'
     }
     ext.detoxKotlinVersion = ext.kotlinVersion
 
@@ -13,18 +14,18 @@ buildscript {
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.5.3'
+        classpath 'com.android.tools.build:gradle:7.3.1'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlinVersion"
     }
 }
 
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
-apply plugin: 'kotlin-android-extensions'
 
-def DEFAULT_COMPILE_SDK_VERSION = 28
-def DEFAULT_BUILD_TOOLS_VERSION = "28.0.3"
-def DEFAULT_TARGET_SDK_VERSION = 28
+def DEFAULT_COMPILE_SDK_VERSION = 36
+def DEFAULT_BUILD_TOOLS_VERSION = "36.0.0"
+def DEFAULT_TARGET_SDK_VERSION = 36
+def DEFAULT_MIN_SDK_VERSION = 28
 
 def safeExtGet(prop, fallback) {
     rootProject.ext.has(prop) ? rootProject.ext.get(prop) : fallback
@@ -33,9 +34,10 @@ def safeExtGet(prop, fallback) {
 android {
     compileSdkVersion safeExtGet('compileSdkVersion', DEFAULT_COMPILE_SDK_VERSION)
     buildToolsVersion safeExtGet('buildToolsVersion', DEFAULT_BUILD_TOOLS_VERSION)
+    ndkVersion safeExtGet('ndkVersion', '27.1.12297006')
 
     defaultConfig {
-        minSdkVersion 21
+        minSdkVersion safeExtGet('minSdkVersion', DEFAULT_MIN_SDK_VERSION)
         targetSdkVersion safeExtGet('targetSdkVersion', DEFAULT_TARGET_SDK_VERSION)
         versionCode 1
         versionName "1.0"
