@@ -2,6 +2,7 @@ import Foundation
 import MobileCoreServices
 import Photos
 import React
+import UniformTypeIdentifiers
 
 @objc(VydiaRNFileUploader)
 class VydiaRNFileUploader: RCTEventEmitter, URLSessionTaskDelegate, URLSessionDataDelegate {
@@ -69,27 +70,25 @@ class VydiaRNFileUploader: RCTEventEmitter, URLSessionTaskDelegate, URLSessionDa
     }
 
     private func guessMIMETypeFromFileName(fileName: String) -> String {
-        guard
-            let uti = UTTypeCreatePreferredIdentifierForTag(
-                kUTTagClassFilenameExtension, (fileName as NSString).pathExtension as CFString, nil)?
-                .takeRetainedValue()
-        else {
-            return "application/octet-stream"
+        // Get file extension
+        let fileExtension = (fileName as NSString).pathExtension
+
+        // Get UTType from file extension
+        if let utType = UTType(filenameExtension: fileExtension) {
+            // Return the preferred MIME type, if available
+            if let mimeType = utType.preferredMIMEType {
+                return mimeType
+            }
         }
 
-        guard
-            let mimeType = UTTypeCopyPreferredTagWithClass(uti, kUTTagClassMIMEType)?
-                .takeRetainedValue()
-        else {
-            return "application/octet-stream"
-        }
-
-        return mimeType as String
+        // Fallback
+        return "application/octet-stream"
     }
 
     private func copyAssetToFile(
         assetUrl: String, completionHandler: @escaping (String?, Error?) -> Void
     ) {
+        // Convert string URL to URL object
         guard let url = URL(string: assetUrl) else {
             completionHandler(
                 nil,
@@ -99,8 +98,18 @@ class VydiaRNFileUploader: RCTEventEmitter, URLSessionTaskDelegate, URLSessionDa
             return
         }
 
-        let fetchResult = PHAsset.fetchAssets(withALAssetURLs: [url], options: nil)
-        guard let asset = fetchResult.lastObject else {
+        // Fetch PHAsset using the "localIdentifier" instead of ALAsset URL
+        // If you have only a file URL (from camera roll export), you might need to map it to a PHAsset via `PHAsset.fetchAssets(with:)` with options
+
+        let fetchOptions = PHFetchOptions()
+        fetchOptions.fetchLimit = 1
+
+        // This assumes the last path component of your URL contains the local identifier
+        let localIdentifier = url.lastPathComponent
+        let fetchResult = PHAsset.fetchAssets(
+            withLocalIdentifiers: [localIdentifier], options: fetchOptions)
+
+        guard let asset = fetchResult.firstObject else {
             completionHandler(
                 nil,
                 NSError(
@@ -123,7 +132,7 @@ class VydiaRNFileUploader: RCTEventEmitter, URLSessionTaskDelegate, URLSessionDa
 
         let pathToWrite = NSTemporaryDirectory().appending(UUID().uuidString)
         let pathUrl = URL(fileURLWithPath: pathToWrite)
-        let fileURI = pathUrl.absoluteString
+        let fileURI = pathUrl.path  // Use .path instead of .absoluteString for local file paths
 
         let options = PHAssetResourceRequestOptions()
         options.isNetworkAccessAllowed = true
