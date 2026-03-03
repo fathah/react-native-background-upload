@@ -1,8 +1,9 @@
 {
   "name": "@fathah_cr/react-native-bg-upload",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross platform http post file uploader with android and iOS background support",
   "main": "src/index.js",
+  "types": "index.d.ts",
   "scripts": {
     "lint": "yarn lint:ci --fix",
     "lint:ci": "eslint src example",
