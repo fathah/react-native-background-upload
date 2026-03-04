@@ -1,6 +1,6 @@
 {
   "name": "@fathah_cr/react-native-bg-upload",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Cross platform http post file uploader with android and iOS background support",
   "main": "src/index.js",
   "types": "index.d.ts",

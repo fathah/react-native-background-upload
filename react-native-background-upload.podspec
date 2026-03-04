@@ -4,11 +4,11 @@ require "json"
  package = JSON.parse(json).deep_symbolize_keys
 
  Pod::Spec.new do |s|
-   s.name = package[:name]
+   s.name = "react-native-bg-upload"
    s.version = package[:version]
    s.swift_version = "5.0"
    s.license = { type: "MIT" }
-   s.homepage = "https://github.com/Vydia/react-native-background-upload"
+   s.homepage = "https://github.com/fathah/react-native-background-upload"
    s.authors = package[:author]
    s.summary = package[:description]
    s.source = { git: package[:repository][:url] }
